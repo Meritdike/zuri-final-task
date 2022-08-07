@@ -6,6 +6,10 @@
     font-family: 'Graphik', sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 :root {
     --red: #e7332b;
 }
@@ -79,7 +83,7 @@ header ul li a:hover {
     transform: translateY(-15px);
 }
 
-.frontend {
+.position-relative {
     z-index: 1;
 }
 

@@ -16,7 +16,7 @@
 <body>
     <!-- Header -->
     <header>
-        <nav class="fixed-top navbar">
+        <nav id="navbar-example2" class="fixed-top navbar">
             <div class="container d-flex justify-content-between align-items-center my-1">
                 <div class="header-left">
                     <a href="talent.html"><img src="img/zuri-talent-logo.svg" alt="Zuri Talent logo"></a>
@@ -24,13 +24,13 @@
                 <div class="header-right">
                     <ul class="list-unstyled d-flex justify-content-between align-items-center">
                         <li class="nav-item me-5">
-                          <a class="nav-link active" aria-current="page" href="#">Home</a>
+                          <a class="nav-link active" aria-current="page" href="#hero-section">Home</a>
                         </li>
                         <li class="nav-item me-5">
-                          <a class="nav-link" href="#">Impact</a>
+                          <a class="nav-link" href="#impact">Impact</a>
                         </li>
                         <li class="nav-item me-5">
-                          <a class="nav-link" href="#">Why Us</a>
+                          <a class="nav-link" href="#hire">Why Us</a>
                         </li>
                         <li class="nav-item">
                             <a href=""><button class="red-btn py-2 px-4">Hire Talents</button></a>
@@ -43,8 +43,9 @@
             </div>
         </nav>
     </header>
-    <!-- Hero Section -->
-    <section id="hero-section"class="mt-5 pt-5">
+    <main data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-light border-0" tabindex="0">
+        <!-- Hero Section -->
+    <section id="hero-section"class="mt-5 pt-5 scroll">
         <div class="container mt-5 pt-lg-5 pt-md-5 pt-0">
             <div class="row align-items-center text-center text-lg-start">
                 <div class="col-lg-6 col-md-12 col-12 d-flex flex-column justify-content-center">
@@ -64,9 +65,9 @@
         </div>
     </section>
     <!-- Impact -->
-    <section id="impact" class="py-5 mt-5">
-        <div class="container py-5">
-            <div class="row align-items-center text-center text-lg-start">
+    <section id="impact" class="py-5 mt-5 scroll">
+        <div class="container pb-5">
+            <div class="row align-items-center text-center text-lg-start pt-5 mt-5">
                 <div class="col-lg-6 col-md-12 col-12">
                     <h3 class="text-dark display-6 fw-semibold">We have impacted the lives of <span class="text-red">thousands</span> around the world</h3>
                     <h6 class="text-dark fw-semibold fs-4">6,000 trained in 14 months</h6>
@@ -177,10 +178,10 @@
         </div>
     </section>
     <!-- Hire our talents -->
-    <section id="hire" class="py-5">
+    <section id="hire" class="py-5 scroll">
         <div class="container">
-            <h3 class="text-dark text-center display-6 fw-semibold pb-4">Why Hire our <span class="text-red">Talents</span></h3>
-            <div class="row">
+            <h3 class="text-dark text-center display-6 fw-semibold pb-4 pt-5 mt-5">Why Hire our <span class="text-red">Talents</span></h3>
+            <div class="row pt-4">
                 <div class="col-12 col-lg-4 col-md-6 mb-4 position-relative">
                     <div class="benefit p-5 text-center h-100 d-flex justify-content-center align-items-center flex-column">
                         <img src="img/people.svg" class="img-fluid" alt="">
@@ -235,6 +236,7 @@
             </div>
         </div>
     </section>
+    </main>
     <!-- Footer -->
     <footer>
         <div class="container pt-5 pb-3">
