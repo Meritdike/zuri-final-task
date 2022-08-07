@@ -84,10 +84,53 @@ header ul li a:hover {
 }
 
 .yellow-long2 {
-    top: -1.5em;
-    right: -8em;
+    top: -4em;
+    right: -18em;
     z-index: -1;
-    mix-blend-mode: soft-light;
+}
+
+#hire {
+    background-color: rgb(255, 248, 229);
+}
+
+.benefit {
+    border-bottom-right-radius: 1em;
+    background-color: #fff;
+}
+
+.benefit:hover {
+    background-color: #161617;
+}
+
+.benefit:hover p {
+    color: #fff;
+}
+
+#hire .col-12 {
+    z-index: 1;
+}
+
+.red-rope {
+    left: -4em;
+    z-index: -1;
+}
+
+footer {
+    background-color: rgb(22, 22, 23);
+}
+
+footer a img {
+    width: 2em;
+}
+
+footer a img.youtube {
+    width: 2.8em;
+}
+
+@media (max-width: 1200px) {
+    .yellow-long2 {
+        display: none !important;
+    }
 }
 
 @media (max-width: 769px) {
