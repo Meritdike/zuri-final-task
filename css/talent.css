@@ -75,6 +75,7 @@ header ul li a:hover {
 }
 
 .skill {
+    background-color: #fff;
     box-shadow: 0 8px 30px hsla(0,0%,48%,0.16)!important;
     transition: transform .3s ease;
 }
