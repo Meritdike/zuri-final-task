@@ -33,11 +33,11 @@
                           <a class="nav-link" href="#hire">Why Us</a>
                         </li>
                         <li class="nav-item">
-                            <a href=""><button class="red-btn py-2 px-4">Hire Talents</button></a>
+                            <button type="button" class="red-btn py-2 px-4" data-bs-toggle="modal" data-bs-target="#hire-talents">Hire Talents</button>
                         </li>
                     </ul>
                     <div class="nav-item d-flex justify-content-between align-items-center d-lg-none">
-                        <a href=""><button class="red-btn py-2 px-4">Hire Talents</button></a>
+                        <button type="button" class="red-btn py-2 px-4" data-bs-toggle="modal" data-bs-target="#hire-talents">Hire Talents</button>
                     </div>
                 </div>
             </div>
@@ -45,197 +45,224 @@
     </header>
     <main data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-light border-0" tabindex="0">
         <!-- Hero Section -->
-    <section id="hero-section"class="mt-5 pt-5 scroll">
-        <div class="container mt-5 pt-lg-5 pt-md-5 pt-0">
-            <div class="row align-items-center text-center text-lg-start">
-                <div class="col-lg-6 col-md-12 col-12 d-flex flex-column justify-content-center">
-                    <h2 class="display-5 fw-semibold text-dark pb-4">Vetted and Trusted <span class="text-red position-relative">talents<img src="img/yellow-line-short.svg" class="img-fluid position-absolute yellow-short" alt="yellow line"></span></h2>
-                    <p class="text-ash fs-5 lh-base me-lg-3 mx-auto mx-lg-0 w-75">At Zuri Team, we train, test and place talent in various industries. We have access to the best pool of skills in the tech Industry.</p>
-                    <div class="mb-5 mb-lg-0">
-                        <a href=""><button class="red-btn py-2 px-5 me-lg-3 me-md-3 me-0 mb-2 mb-lg-0 mb-md-0">Hire Talents</button></a>
-                        <a href=""><button class="ash-btn py-2 px-5">Join Talent pool</button></a>
+        <section id="hero-section"class="mt-5 pt-5 scroll">
+            <div class="container mt-5 pt-lg-5 pt-md-5 pt-0">
+                <div class="row align-items-center text-center text-lg-start">
+                    <div class="col-lg-6 col-md-12 col-12 d-flex flex-column justify-content-center">
+                        <h2 class="display-5 fw-semibold text-dark pb-4">Vetted and Trusted <span class="text-red position-relative">talents<img src="img/yellow-line-short.svg" class="img-fluid position-absolute yellow-short" alt="yellow line"></span></h2>
+                        <p class="text-ash fs-5 lh-base me-lg-3 mx-auto mx-lg-0 w-75">At Zuri Team, we train, test and place talent in various industries. We have access to the best pool of skills in the tech Industry.</p>
+                        <div class="mb-5 mb-lg-0">
+                            <button type="button" class="red-btn py-2 px-5 me-lg-3 me-md-3 me-0 mb-2 mb-lg-0 mb-md-0" data-bs-toggle="modal" data-bs-target="#hire-talents">Hire Talents</button>
+                            <button type="button" class="ash-btn py-2 px-5"  data-bs-toggle="modal" data-bs-target="#join-talent-pool">Join Talent pool</button>
+                        </div>
                     </div>
-                </div>
-                <div class="col-lg-6 col-md-12 col-12">
-                    <div class="hero-img d-flex justify-content-lg-end justify-content-center align-items-center position-relative"><img src="img/hero-section-img.png" class="w-75" alt="">
-                    <img src="img/yellow-line-long.svg" class="w-50 position-absolute yellow-long d-none d-lg-block d-md-none" alt="">
+                    <div class="col-lg-6 col-md-12 col-12">
+                        <div class="hero-img d-flex justify-content-lg-end justify-content-center align-items-center position-relative"><img src="img/hero-section-img.png" class="w-75" alt="">
+                        <img src="img/yellow-line-long.svg" class="w-50 position-absolute yellow-long d-none d-lg-block d-md-none" alt="">
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-    <!-- Impact -->
-    <section id="impact" class="py-5 mt-5 scroll">
-        <div class="container pb-5">
-            <div class="row align-items-center text-center text-lg-start pt-5 mt-5">
-                <div class="col-lg-6 col-md-12 col-12">
-                    <h3 class="text-dark display-6 fw-semibold">We have impacted the lives of <span class="text-red">thousands</span> around the world</h3>
-                    <h6 class="text-dark fw-semibold fs-4">6,000 trained in 14 months</h6>
-                    <p class="text-ash fs-5">Talent Placed in 5 countries</p>
-                    <div class="countries d-flex justify-content-lg-start justify-content-center mb-5">
-                        <div class="country bg-white rounded-3 py-2 d-flex justify-content-center align-items-center me-3">
-                            <img src="img/germany.svg" class="w-50 img-fluid" alt="">
-                        </div>
-                        <div class="country bg-white rounded-3 py-2 d-flex justify-content-center align-items-center me-3">
-                            <img src="img/england.svg" class="w-50 img-fluid" alt="">
-                        </div>
-                        <div class="country bg-white rounded-3 py-2 d-flex justify-content-center align-items-center me-3">
-                            <img src="img/india.svg" class="w-50 img-fluid" alt="">
-                        </div>
-                        <div class="country bg-white rounded-3 py-2 d-flex justify-content-center align-items-center me-3">
-                            <img src="img/nigeria.svg" class="w-50 img-fluid" alt="">
-                        </div>
-                        <div class="country bg-white rounded-3 py-2 d-flex justify-content-center align-items-center me-3">
-                            <img src="img/usa.svg" class="w-50 img-fluid" alt="">
+        </section>
+        <!-- Impact -->
+        <section id="impact" class="py-5 mt-5 scroll">
+            <div class="container pb-5">
+                <div class="row align-items-center text-center text-lg-start pt-5 mt-5">
+                    <div class="col-lg-6 col-md-12 col-12">
+                        <h3 class="text-dark display-6 fw-semibold">We have impacted the lives of <span class="text-red">thousands</span> around the world</h3>
+                        <h6 class="text-dark fw-semibold fs-4">6,000 trained in 14 months</h6>
+                        <p class="text-ash fs-5">Talent Placed in 5 countries</p>
+                        <div class="countries d-flex justify-content-lg-start justify-content-center mb-5">
+                            <div class="country bg-white rounded-3 py-2 d-flex justify-content-center align-items-center me-3">
+                                <img src="img/germany.svg" class="w-50 img-fluid" alt="">
+                            </div>
+                            <div class="country bg-white rounded-3 py-2 d-flex justify-content-center align-items-center me-3">
+                                <img src="img/england.svg" class="w-50 img-fluid" alt="">
+                            </div>
+                            <div class="country bg-white rounded-3 py-2 d-flex justify-content-center align-items-center me-3">
+                                <img src="img/india.svg" class="w-50 img-fluid" alt="">
+                            </div>
+                            <div class="country bg-white rounded-3 py-2 d-flex justify-content-center align-items-center me-3">
+                                <img src="img/nigeria.svg" class="w-50 img-fluid" alt="">
+                            </div>
+                            <div class="country bg-white rounded-3 py-2 d-flex justify-content-center align-items-center me-3">
+                                <img src="img/usa.svg" class="w-50 img-fluid" alt="">
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-lg-6 col-md-12 col-12 py-lg-2">
-                    <div class="d-flex justify-content-lg-end justify-content-center align-items-center position-relative"><img src="img/people-cycle.png" class="w-75" alt="">
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Skills -->
-    <section id="skills">
-        <div class="container py-5">
-            <div class="row">
-                <div class="col-lg-6 col-md-6 col-12 text-lg-start text-md-start text-center">
-                    <h3 class="text-dark display-6 fw-semibold pb-4">Skills of our <span class="text-red">talents</span> that you will need</h3>
-                </div>
-                <div class="col-lg-4 col-md-4 col-12"></div>
-            </div>
-            <div class="skills row">
-                <div class="col-lg-auto col-md-4 col-6 mb-3">
-                    <div class="skill h-100 d-flex justify-content-center align-items-center rounded-3">
-                        <p class="text-ash mb-0 fs-6 bg-white p-3 px-lg-4 py-lg-3 text-center rounded-3">UI/UX Designers</p>
-                    </div>
-                </div>
-                <div class="col-lg-auto col-md-4 col-6 mb-3">
-                    <div class="skill h-100 d-flex justify-content-center align-items-center rounded-3">
-                        <p class="text-ash mb-0 fs-6 bg-white p-3 px-lg-4 py-lg-3 text-center rounded-3">Backend Developers</p>
-                    </div>
-                </div>
-                <div class="col-lg-auto col-md-4 col-6 mb-3">
-                    <div class="skill h-100 d-flex justify-content-center align-items-center rounded-3">
-                        <p class="text-ash mb-0 fs-6 bg-white p-3 px-lg-4 py-lg-3 text-center rounded-3">DevOps Engineers</p>
-                    </div>
-                </div>
-                <div class="col-lg-auto col-md-4 col-6 mb-3 position-relative">
-                    <div class="skill h-100 d-flex justify-content-center align-items-center rounded-3">
-                        <p class="text-ash mb-0 fs-6 bg-white p-3 px-lg-4 py-lg-3 text-center rounded-3">Frontend Developers</p>
-                    </div>
-                    <div class="position-absolute yellow-long2">
-                        <img src="img/yellow-line-long.svg" class="img-fluid d-none d-lg-block d-md-none" alt="">
+                    <div class="col-lg-6 col-md-12 col-12 py-lg-2">
+                        <div class="d-flex justify-content-lg-end justify-content-center align-items-center position-relative"><img src="img/people-cycle.png" class="w-75" alt="">
                     </div>
                 </div>
             </div>
+        </section>
+        <!-- Skills -->
+        <section id="skills">
+            <div class="container py-5">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-12 text-lg-start text-md-start text-center">
+                        <h3 class="text-dark display-6 fw-semibold pb-4">Skills of our <span class="text-red">talents</span> that you will need</h3>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-12"></div>
+                </div>
+                <div class="skills row">
+                    <div class="col-lg-auto col-md-4 col-6 mb-3">
+                        <div class="skill h-100 d-flex justify-content-center align-items-center rounded-3">
+                            <p class="text-ash mb-0 fs-6 bg-white p-3 px-lg-4 py-lg-3 text-center rounded-3">UI/UX Designers</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-auto col-md-4 col-6 mb-3">
+                        <div class="skill h-100 d-flex justify-content-center align-items-center rounded-3">
+                            <p class="text-ash mb-0 fs-6 bg-white p-3 px-lg-4 py-lg-3 text-center rounded-3">Backend Developers</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-auto col-md-4 col-6 mb-3">
+                        <div class="skill h-100 d-flex justify-content-center align-items-center rounded-3">
+                            <p class="text-ash mb-0 fs-6 bg-white p-3 px-lg-4 py-lg-3 text-center rounded-3">DevOps Engineers</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-auto col-md-4 col-6 mb-3 position-relative">
+                        <div class="skill h-100 d-flex justify-content-center align-items-center rounded-3">
+                            <p class="text-ash mb-0 fs-6 bg-white p-3 px-lg-4 py-lg-3 text-center rounded-3">Frontend Developers</p>
+                        </div>
+                        <div class="position-absolute yellow-long2">
+                            <img src="img/yellow-line-long.svg" class="img-fluid d-none d-lg-block d-md-none" alt="">
+                        </div>
+                    </div>
+                </div>
 
+            </div>
+            
+        </section>
+        <!-- Where talents work -->
+        <section id="where-our-talents-work" class="mb-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-12 text-lg-start text-md-start text-center">
+                        <h3 class="text-dark display-6 fw-semibold pb-4">Where our talents work</h3>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-12"></div>
+                </div>
+                <div class="d-flex flex-wrap">
+                    <div class="col-lg-auto col-md-4 col-6 mb-3">
+                        <div class="skill h-100 d-flex justify-content-center align-items-center rounded-3 me-3">
+                            <p class="text-ash mb-0 fs-6 bg-white py-3 px-4 text-center rounded-3">GitHub</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-auto col-md-4 col-6 mb-3">
+                        <div class="skill h-100 d-flex justify-content-center align-items-center rounded-3 me-3">
+                            <p class="text-ash mb-0 fs-6 bg-white py-3 px-4 text-center rounded-3">Microsoft</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-auto col-md-4 col-6 mb-3">
+                        <div class="skill h-100 d-flex justify-content-center align-items-center rounded-3 me-3">
+                            <p class="text-ash mb-0 fs-6 bg-white py-3 px-4 text-center rounded-3">Reskill Americans</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-auto col-md-4 col-6 mb-3">
+                        <div class="skill h-100 d-flex justify-content-center align-items-center rounded-3 me-3">
+                            <p class="text-ash mb-0 fs-6 bg-white py-3 px-4 text-center rounded-3">Flutterwave</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-auto col-md-4 col-6 mb-3">
+                        <div class="skill h-100 d-flex justify-content-center align-items-center rounded-3 me-3">
+                            <p class="text-ash mb-0 fs-6 bg-white py-3 px-4 text-center rounded-3">Google</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-auto col-md-4 col-6 mb-3">
+                        <div class="skill h-100 d-flex justify-content-center align-items-center rounded-3 me-3">
+                            <p class="text-ash mb-0 fs-6 bg-white py-3 px-4 text-center rounded-3">Career Transitioners</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Hire our talents -->
+        <section id="hire" class="py-5 scroll">
+            <div class="container">
+                <h3 class="text-dark text-center display-6 fw-semibold pb-4 pt-5 mt-5">Why Hire our <span class="text-red">Talents</span></h3>
+                <div class="row pt-4">
+                    <div class="col-12 col-lg-4 col-md-6 mb-4 position-relative">
+                        <div class="benefit p-5 text-center h-100 d-flex justify-content-center align-items-center flex-column">
+                            <img src="img/people.svg" class="img-fluid" alt="">
+                            <p class="text-ash pt-3 mb-0">
+                                Zuri Team has a highly skilled set of talents that are built on referral and successful partnerships.
+                            </p>
+                        </div>
+                        <div class="red-rope position-absolute">
+                            <img src="img/red-rope.svg" class="img-fluid" alt="">
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-4 col-md-6 mb-4">
+                        <div class="benefit p-5 text-center h-100 d-flex justify-content-center align-items-center flex-column">
+                            <img src="img/mech.svg" class="img-fluid" alt="">
+                            <p class="text-ash pt-3 mb-0">
+                                Our recruiters are exceptionally skilled in identifying top talent around the globe and matching them with the client's needs.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-4 col-md-6 mb-4">
+                        <div class="benefit p-5 text-center h-100 d-flex justify-content-center align-items-center flex-column">
+                            <img src="img/hand.svg" class="img-fluid" alt="">
+                            <p class="text-ash py-4 mb-0">
+                                We have an 85% fill ratio for every open position we partner for.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="d-none d-lg-flex col-lg-2 d-md-none"></div>
+                    <div class="col-12 col-lg-4 col-md-6 mb-4">
+                        <div class="benefit p-5 text-center h-100 d-flex justify-content-center align-items-center flex-column">
+                            <img src="img/write.svg" class="img-fluid" alt="">
+                            <p class="text-ash py-4 mb-0">
+                                Contract renewal rate for our consultant is 90 percent.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-4 col-md-12 mb-4">
+                        <div class="benefit p-5 text-center h-100 d-flex justify-content-center align-items-center flex-column">
+                            <img src="img/many.svg" class="img-fluid" alt="">
+                            <p class="text-ash py-4 mb-0">
+                                60% of our consultants are converted to full-time employees.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="d-none d-lg-flex col-lg-2 d-md-none"></div>
+                </div>
+                <div class="text-center">
+                    <div class="my-5 mb-lg-0">
+                        <button type="button" class="red-btn py-2 px-5 me-lg-3 me-md-3 me-0 mb-2 mb-lg-0 mb-md-0" data-bs-toggle="modal" data-bs-target="#hire-talents">Hire Talents</button>
+                        <button type="button" class="ash-btn py-2 px-5" data-bs-toggle="modal" data-bs-target="#join-talent-pool">Join Talent pool</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ModalS -->
+        <!-- Hire talent button Modal -->
+        <div class="modal fade" id="hire-talents" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                        <div class="modal-body text-center p-5">
+                            <h2 class="display-6 fw-semibold text-dark pt-5">Talent Recuritment</h2>
+                            <p class="text-ash fs-6 lh-base">We will love to discuss your business and your talent needs.</p>
+                            <a href="https://docs.google.com/forms/d/e/1FAIpQLSdYdC1BffwmsdWZpS74Rvq6V_0kuN_HMlMwmoqUvI7WTEAHJg/viewform" target="_blank"><button class="red-btn py-2 px-5 mb-3">Fill this form</button></a>
+                            <p class="text-dark">OR</p>
+                            <a href="https://calendly.com/zuri-team/consult-with-seyi" target="_blank"><button class="red-btn py-2 px-5 mb-3">Book a Consultation</button></a>
+                        </div>
+                </div>
+            </div>
         </div>
-        
-    </section>
-    <!-- Where talents work -->
-    <section id="where-our-talents-work" class="mb-5 pb-5">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6 col-md-6 col-12 text-lg-start text-md-start text-center">
-                    <h3 class="text-dark display-6 fw-semibold pb-4">Where our talents work</h3>
-                </div>
-                <div class="col-lg-4 col-md-4 col-12"></div>
-            </div>
-            <div class="d-flex flex-wrap">
-                <div class="col-lg-auto col-md-4 col-6 mb-3">
-                    <div class="skill h-100 d-flex justify-content-center align-items-center rounded-3 me-3">
-                        <p class="text-ash mb-0 fs-6 bg-white py-3 px-4 text-center rounded-3">GitHub</p>
-                    </div>
-                </div>
-                <div class="col-lg-auto col-md-4 col-6 mb-3">
-                    <div class="skill h-100 d-flex justify-content-center align-items-center rounded-3 me-3">
-                        <p class="text-ash mb-0 fs-6 bg-white py-3 px-4 text-center rounded-3">Microsoft</p>
-                    </div>
-                </div>
-                <div class="col-lg-auto col-md-4 col-6 mb-3">
-                    <div class="skill h-100 d-flex justify-content-center align-items-center rounded-3 me-3">
-                        <p class="text-ash mb-0 fs-6 bg-white py-3 px-4 text-center rounded-3">Reskill Americans</p>
-                    </div>
-                </div>
-                <div class="col-lg-auto col-md-4 col-6 mb-3">
-                    <div class="skill h-100 d-flex justify-content-center align-items-center rounded-3 me-3">
-                        <p class="text-ash mb-0 fs-6 bg-white py-3 px-4 text-center rounded-3">Flutterwave</p>
-                    </div>
-                </div>
-                <div class="col-lg-auto col-md-4 col-6 mb-3">
-                    <div class="skill h-100 d-flex justify-content-center align-items-center rounded-3 me-3">
-                        <p class="text-ash mb-0 fs-6 bg-white py-3 px-4 text-center rounded-3">Google</p>
-                    </div>
-                </div>
-                <div class="col-lg-auto col-md-4 col-6 mb-3">
-                    <div class="skill h-100 d-flex justify-content-center align-items-center rounded-3 me-3">
-                        <p class="text-ash mb-0 fs-6 bg-white py-3 px-4 text-center rounded-3">Career Transitioners</p>
-                    </div>
+        <!-- Join talent pool Modal -->
+        <div class="modal fade" id="join-talent-pool" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                        <div class="modal-body text-center p-5">
+                            <h2 class="display-5 fw-semibold text-dark pt-5">Join Talent Pool</h2>
+                            <p class="text-ash fs-5 lh-base">Interested in joining our Talent Pool?</p>
+                            <a href="https://docs.google.com/forms/d/e/1FAIpQLSenlbLaRmpPCRzby9DJ71pyChTBurIhcCFOyiZxEX1IMwxXtg/viewform" target="_blank"><button class="red-btn py-2 px-5 mb-3">Click here to sign up</button></a>
+                        </div>
                 </div>
             </div>
         </div>
-    </section>
-    <!-- Hire our talents -->
-    <section id="hire" class="py-5 scroll">
-        <div class="container">
-            <h3 class="text-dark text-center display-6 fw-semibold pb-4 pt-5 mt-5">Why Hire our <span class="text-red">Talents</span></h3>
-            <div class="row pt-4">
-                <div class="col-12 col-lg-4 col-md-6 mb-4 position-relative">
-                    <div class="benefit p-5 text-center h-100 d-flex justify-content-center align-items-center flex-column">
-                        <img src="img/people.svg" class="img-fluid" alt="">
-                        <p class="text-ash pt-3 mb-0">
-                            Zuri Team has a highly skilled set of talents that are built on referral and successful partnerships.
-                        </p>
-                    </div>
-                    <div class="red-rope position-absolute">
-                        <img src="img/red-rope.svg" class="img-fluid" alt="">
-                    </div>
-                </div>
-                <div class="col-12 col-lg-4 col-md-6 mb-4">
-                    <div class="benefit p-5 text-center h-100 d-flex justify-content-center align-items-center flex-column">
-                        <img src="img/mech.svg" class="img-fluid" alt="">
-                        <p class="text-ash pt-3 mb-0">
-                            Our recruiters are exceptionally skilled in identifying top talent around the globe and matching them with the client's needs.
-                        </p>
-                    </div>
-                </div>
-                <div class="col-12 col-lg-4 col-md-6 mb-4">
-                    <div class="benefit p-5 text-center h-100 d-flex justify-content-center align-items-center flex-column">
-                        <img src="img/hand.svg" class="img-fluid" alt="">
-                        <p class="text-ash py-4 mb-0">
-                            We have an 85% fill ratio for every open position we partner for.
-                        </p>
-                    </div>
-                </div>
-                <div class="d-none d-lg-flex col-lg-2 d-md-none"></div>
-                <div class="col-12 col-lg-4 col-md-6 mb-4">
-                    <div class="benefit p-5 text-center h-100 d-flex justify-content-center align-items-center flex-column">
-                        <img src="img/write.svg" class="img-fluid" alt="">
-                        <p class="text-ash py-4 mb-0">
-                            Contract renewal rate for our consultant is 90 percent.
-                        </p>
-                    </div>
-                </div>
-                <div class="col-12 col-lg-4 col-md-12 mb-4">
-                    <div class="benefit p-5 text-center h-100 d-flex justify-content-center align-items-center flex-column">
-                        <img src="img/many.svg" class="img-fluid" alt="">
-                        <p class="text-ash py-4 mb-0">
-                            60% of our consultants are converted to full-time employees.
-                        </p>
-                    </div>
-                </div>
-                <div class="d-none d-lg-flex col-lg-2 d-md-none"></div>
-            </div>
-            <div class="text-center">
-                <div class="my-5 mb-lg-0">
-                    <a href=""><button class="red-btn py-2 px-5 me-lg-3 me-md-3 me-0 mb-2 mb-lg-0 mb-md-0">Hire Talents</button></a>
-                    <a href=""><button class="ash-btn py-2 px-5">Join Talent pool</button></a>
-                </div>
-            </div>
-        </div>
-    </section>
     </main>
     <!-- Footer -->
     <footer>
