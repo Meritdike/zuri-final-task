@@ -119,6 +119,15 @@ body {
     box-shadow: 0 11px 22px rgb(231 51 43 / 10%);
 }
 
+.accordion-button::after {
+    background-image: url(../img/plus.svg) !important;
+}
+
+.accordion-button:not(.collapsed) {
+    color: #000 !important;
+    background-color: #fff !important;
+}
+
 
 
 @media (max-width: 1025px) {
