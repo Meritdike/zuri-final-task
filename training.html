@@ -26,16 +26,16 @@
                 <div class="header-right fs-6 fw-light">
                     <ul class="list-unstyled d-flex justify-content-between align-items-center">
                         <li class="nav-item me-5">
-                          <a class="nav-link active" aria-current="page" href="#">About</a>
+                          <a class="nav-link active" aria-current="page" href="#hero-section">About</a>
                         </li>
                         <li class="nav-item me-5">
-                          <a class="nav-link" href="#">Why Us?</a>
+                          <a class="nav-link" href="#why-us">Why Us?</a>
                         </li>
                         <li class="nav-item me-5">
-                          <a class="nav-link" href="#">Stacks Covered</a>
+                          <a class="nav-link" href="#scope">Stacks Covered</a>
                         </li>
                         <li class="nav-item me-5">
-                          <a class="nav-link" href="#">FAQs</a>
+                          <a class="nav-link" href="#faqs">FAQs</a>
                         </li>
                         <li class="nav-item position-relative">
                             <a href="">
@@ -454,31 +454,31 @@
                                 <img src="img/yellow-triangle.svg" alt="" class="img-fluid">
                             </div>
                             <h2 class="fw-semibold text-white pt-4">Full-time</h2>
-                            <p class="text-white">Requires at least 25 hours weekly on program content.</p>
-                            <h5 class="text-white fw-semibold">Available Tracks:</h5>
-                            <ul class="mb-4 ps-3">
-                                <li class="text-white">Full Stack: Backend (Python, JavaScript), Frontend (HTML, CSS, JavaScript) & DevOps</li>
-                                <li class="text-white">Design: Figma, Adobe XD</li>
-                            </ul>
-                            <h5 class="text-white fw-semibold">Phases:</h5>
-                            <ul class="mb-4 ps-3">
-                                <li class="text-white">Training Phase</li>
-                                <li class="text-white">Project Phase</li>
-                            </ul>
-                            <h5 class="text-white fw-semibold">Post Program:</h5>
-                            <ul class="ps-3">
-                                <li class="text-white">Certification of Attendance</li>
-                                <li class="text-white"><a href="" class="text-white">Zuri Internship</a></li>
-                                <li class="text-white">Laptop Reward (upgrade or new one)</li>
-                                <li class="text-white">Job Placement</li>
-                                <li class="text-white">Zuri Talent Pool</li>
-                                <li class="text-white">More Training:</li>
-                                <p class="text-white mb-0">Interview Prep</p>
-                                <p class="text-white mb-0">Algorithms & Data Structure</p>
-                                <p class="text-white mb-0">Freelance Setup & Training</p>
-                                <p class="text-white mb-0">LinkedIn Optimization</p>
-                                <p class="text-white mb-0">CV Review</p>
-                            </ul>
+                            <p class="text-white mb-4">Requires at least 25 hours weekly on program content.</p>
+                            <div class="mb-4">
+                                <h5 class="text-white fw-semibold">Available Tracks:</h5>
+                                <p class="text-white mb-0"><i class="bi bi-dot text-white fs-4"></i>Full Stack: Backend (Python, JavaScript), Frontend (HTML, CSS, JavaScript) & DevOps</p>
+                                <p class="text-white"><i class="bi bi-dot text-white fs-4"></i>Design: Figma, Adobe XD</p>
+                            </div>
+                            <div class="mb-4">
+                                <h5 class="text-white fw-semibold">Phases:</h5>
+                                <p class="text-white mb-0"><i class="bi bi-dot text-white fs-4"></i>Training Phase</p>
+                                <p class="text-white"><i class="bi bi-dot text-white fs-4"></i>Project Phase</p>
+                            </div>
+                            <div class="mb-4">
+                                <h5 class="text-white fw-semibold">Post Program:</h5>
+                                <p class="text-white mb-0"><i class="bi bi-dot text-white fs-4"></i>Certification of Attendance</p>
+                                <p class="text-white mb-0"><i class="bi bi-dot text-white fs-4"></i><a href="" class="text-white">Zuri Internship</a><button type="button" class="btn ps-1 pb-0 mb-2 pe-0 pt-0 info-icon" data-bs-toggle="modal" data-bs-target="#exampleModal"><img src="img/info-icon.svg" alt="" class="w-75"></button></p>
+                                <p class="text-white mb-0"><i class="bi bi-dot text-white fs-4"></i>Laptop Reward (upgrade or new one)</p>
+                                <p class="text-white mb-0"><i class="bi bi-dot text-white fs-4"></i>Job Placement</p>
+                                <p class="text-white mb-0"><i class="bi bi-dot text-white fs-4"></i>Zuri Talent Pool</p>
+                                <p class="text-white mb-0"><i class="bi bi-dot text-white fs-4"></i>More Training:</p>
+                                <p class="text-white mb-0 ps-4">Interview Prep</p>
+                                <p class="text-white mb-0 ps-4">Algorithms & Data Structure</p>
+                                <p class="text-white mb-0 ps-4">Freelance Setup & Training</p>
+                                <p class="text-white mb-0 ps-4">LinkedIn Optimization</p>
+                                <p class="text-white mb-0 ps-4">CV Review</p>
+                            </div>
                             <div class="position-absolute structure-img">
                                 <img src="img/hour-glass.png" alt="" class="w-20">
                             </div>
@@ -487,7 +487,7 @@
                     <div class="col-lg-6 col-md-6 col-12 mt-5">
                         <div class="dark-bg rounded-structure pt-5 px-5 pb-4 position-relative h-100">
                             <h2 class="fw-semibold text-white pt-4">Part-time</h2>
-                            <p class="text-white">Requires at least 11 hours weekly on program content.</p>
+                            <p class="text-white mb-4">Requires at least 11 hours weekly on program content.</p>
                             <h5 class="text-white fw-semibold">Available Tracks:</h5>
                             <ul class="mb-4 ps-3">
                                 <li class="text-white mb-4">Frontend: <br>HTML, CSS, JavaScript</li>
@@ -540,6 +540,26 @@
                 </div>
             </div>
         </section>
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header border-0 p-4">
+                  <h5 class="modal-title text-dark fw-semibold mx-auto" id="exampleModalLabel">Zuri Internship Is Optional</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  ...
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          Static back
     </main>
     <!-- Footer -->
     <footer>
