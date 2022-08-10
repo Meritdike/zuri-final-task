@@ -541,8 +541,50 @@
             </div>
         </section>
     </main>
+    <!-- Footer -->
+    <footer>
+        <div class="container pt-5 pb-3">
+            <div class="row pb-4">
+                <div class="col-lg-6 col-md-6 col-12 text-lg-start text-md-start text-center mb-4">
+                    <img src="img/zuri-i4g-logo.svg" alt="Zuri talent logo">
+                </div>
+                <div class="col-lg-6 col-md-6 col-12">
+                    <div class="socials d-flex justify-content-lg-end justify-content-md-end justify-content-center align-items-center">
+                        <a href="https://web.facebook.com/thezuriteam" target="_blank"><img src="img/facebook-red.svg" class="img-fluid me-2" alt=""></a>
+                        <a href="https://www.linkedin.com/company/zuri-team/" target="_blank"><img src="img/linkedin-red.svg" class="img-fluid me-2" alt=""></a>
+                        <a href="https://twitter.com/theZuriTeam" target="_blank"><img src="img/twitter-red.svg" class="img-fluid me-2" alt=""></a>
+                        <a href="https://www.youtube.com/thezuriteam" target="_blank"><img src="img/youtube-red.svg" class="img-fluid youtube" alt=""></a>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-between flex-column-reverse flex-lg-row flex-md-row align-items-center">
+                <div class="col-lg-6 col-md-6 col-12 text-lg-start text-md-start text-center mb-lg-0">
+                    <p class="mb-lg-0 mb-md-0 fs-6">&copy; <span id="currentYear" class=""></span> Zuri Training</p>
+                </div>
+                <div class="col-lg-6 col-md-6 col-12">
+                    <div class="mb-4 mb-lg-0 mb-md-0 text-center text-lg-end text-md-end">
+                        <div class="level-link py-2 row justify-content-end align-content-center flex-column-reverse flex-lg-row flex-md-row">
+                            <div class="col-lg-4 col-md-6 col-12 me-0 px-0 fs-6 mt-3 mt-lg-0 mt-md-0">
+                                <a href="mailto:talent@zuri.team" class="text-decoration-none text-ash">Privacy Policy</a>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-12 me-0 px-0 fs-6">
+                                <a href="mailto:talent@zuri.team" class="text-decoration-none text-ash">Ingressive For Good</a>
+                            </div>
+                        </div>
+                    </div>
+                    <hr class="d-block d-lg-none d-md-none">
+                </div>
+            </div>
+        </div>
+    </footer>
 
 
+
+    <script>
+        const date = new Date();
+        const year = date.getFullYear();
+        document.getElementById('currentYear').innerHTML = year;
+    </script>
     <script src="js/bootstrap.js"></script>
 </body>
 </html>
