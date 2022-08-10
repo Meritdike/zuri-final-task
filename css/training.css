@@ -169,6 +169,11 @@ body {
     width: 10em;
 }
 
+.spiral {
+    top: 5em;
+    left: 8em;
+}
+
 
 @media (max-width: 1025px) {
     .width {
