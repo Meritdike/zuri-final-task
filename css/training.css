@@ -83,7 +83,7 @@ body {
     background: linear-gradient(#fff, #ffefe9);
 }
 
-#scope {
+#scope, #structure {
     background: linear-gradient(#fff, #ffefe9, #fff);
 }
 
@@ -128,6 +128,46 @@ body {
     background-color: #fff !important;
 }
 
+.dark-bg {
+    background-color: #1b1a20;
+    box-shadow: 0 11px 22px rgb(231 51 43 / 10%);
+}
+
+.rounded-structure {
+    border-radius: 4em;
+}
+
+.structure-img {
+    bottom: 9em;
+    text-align: end;
+    right: 2em;
+}
+
+.w-20 {
+    width: 20%;
+}
+
+.red-star {
+    width: 6em;
+}
+
+.left {
+    left: -7em;
+}
+
+.slant-dots {
+    bottom: -4.3em;
+    text-align: end;
+    z-index: -1;
+}
+
+.w-faq {
+    width: 80%;
+}
+
+.w-10 {
+    width: 10em;
+}
 
 
 @media (max-width: 1025px) {
@@ -174,5 +214,13 @@ body {
 
     .p-fs {
         font-size: 1rem;
+    }
+
+    .red-star {
+        width: 4em;
+    }
+
+    .w-faq {
+        width: 100%;
     }
 }
