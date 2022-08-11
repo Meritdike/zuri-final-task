@@ -469,19 +469,19 @@
                                 <h5 class="text-white fw-semibold">Post Program:</h5>
                                 <p class="text-white mb-0"><i class="bi bi-dot text-white fs-4"></i>Certification of Attendance</p>
                                 <p class="text-white mb-0"><i class="bi bi-dot text-white fs-4"></i><a href="" class="text-white">Zuri Internship</a><button type="button" class="btn ps-1 pb-0 mb-2 pe-0 pt-0 info-icon" data-bs-toggle="modal" data-bs-target="#exampleModal"><img src="img/info-icon.svg" alt="" class="w-75"></button></p>
-                                <p class="text-white mb-0"><i class="bi bi-dot text-white fs-4"></i>Laptop Reward (upgrade or new one)</p>
-                                <p class="text-white mb-0"><i class="bi bi-dot text-white fs-4"></i>Job Placement</p>
+                                <p class="text-white mb-0"><i class="bi bi-dot text-white fs-4"></i>Laptop Reward (upgrade or new one)<button type="button" class="btn ps-1 pb-0 mb-2 pe-0 pt-0 info-icon" data-bs-toggle="modal" data-bs-target="#laptop"><img src="img/info-icon.svg" alt="" class="w-75"></button></p>
+                                <p class="text-white mb-0"><i class="bi bi-dot text-white fs-4"></i>Job Placement<button type="button" class="btn ps-1 pb-0 mb-2 pe-0 pt-0 info-icon" data-bs-toggle="modal" data-bs-target="#job-placement"><img src="img/info-icon.svg" alt="" class="w-75"></button></p>
                                 <p class="text-white mb-0"><i class="bi bi-dot text-white fs-4"></i>Zuri Talent Pool</p>
-                                <p class="text-white mb-0"><i class="bi bi-dot text-white fs-4"></i>More Training:</p>
+                                <p class="text-white mb-0"><i class="bi bi-dot text-white fs-4"></i>More Training:<button type="button" class="btn ps-1 pb-0 mb-2 pe-0 pt-0 info-icon" data-bs-toggle="modal" data-bs-target="#more-training"><img src="img/info-icon.svg" alt="" class="w-75"></button></p>
                                 <p class="text-white mb-0 ps-4">Interview Prep</p>
                                 <p class="text-white mb-0 ps-4">Algorithms & Data Structure</p>
                                 <p class="text-white mb-0 ps-4">Freelance Setup & Training</p>
                                 <p class="text-white mb-0 ps-4">LinkedIn Optimization</p>
                                 <p class="text-white mb-0 ps-4">CV Review</p>
                             </div>
-                            <div class="position-absolute structure-img">
-                                <img src="img/hour-glass.png" alt="" class="w-20">
-                            </div>
+                            <span class="position-absolute structure-img w-25">
+                                <img src="img/hour-glass.png" alt="" class="w-75">
+                            </span>
                         </div>  
                     </div>
                     <div class="col-lg-6 col-md-6 col-12 mt-5">
@@ -541,25 +541,75 @@
             </div>
         </section>
 
-        <!-- Modal -->
+        <!-- Modals -->
+        <!-- Zuri Internship Modal -->
         <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered">
-              <div class="modal-content">
-                <div class="modal-header border-0 p-4">
-                  <h5 class="modal-title text-dark fw-semibold mx-auto" id="exampleModalLabel">Zuri Internship Is Optional</h5>
-                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                  ...
-                </div>
-                <div class="modal-footer">
-                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                  <button type="button" class="btn btn-primary">Save changes</button>
-                </div>
+              <div class="modal-content p-5">
+                    <div class="modal-header border-0">
+                    <h5 class="modal-title text-dark fw-semibold" id="exampleModalLabel">Zuri Internship Is Optional</h5>
+                    <button type="button" class="btn-close shadow-none" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p class="fs-5">What do we mean by this?</p>
+                        <p class="fs-5">
+                            The Zuri Internship is another level of training that places the participants in a work simulation. It is not paid work; it’s a short training program to get participants ready for actual jobs. There will be cash rewards for a job well done.
+                        </p>
+                    </div>
               </div>
             </div>
-          </div>
-          Static back
+        </div>
+        <!-- Laptop Reward Modal -->
+        <div class="modal fade" id="laptop" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content p-5">
+                    <div class="modal-header border-0">
+                    <h5 class="modal-title text-dark fw-semibold" id="exampleModalLabel">Laptop Reward (Upgrade Or New One)</h5>
+                    <button type="button" class="btn-close shadow-none" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p class="fs-5">What do we mean by this?</p>
+                        <p class="fs-5">
+                            We will be working with our partners on how to get laptops for exceptional participants who genuinely need a better device. This is not for everyone, and we will only do this if we can get partners to fund / or donate.
+                        </p>
+                    </div>
+              </div>
+            </div>
+        </div>
+        <!-- Job Placement Modal -->
+        <div class="modal fade" id="job-placement" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content p-5">
+                    <div class="modal-header border-0">
+                    <h5 class="modal-title text-dark fw-semibold" id="exampleModalLabel">Job Reward:</h5>
+                    <button type="button" class="btn-close shadow-none" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p class="fs-5">What do we mean by this?</p>
+                        <p class="fs-5">
+                            This is a beginner-focused program; we will not be exclusively recommending everyone for jobs or job placement. We will not be placing everyone in our talent pool. We will select very few who are exceptional, smart and able to out-perform their pairs and recommend them for possible employment or further internships. You might still have to go through other forms of interview depending on the employer
+                        </p>
+                    </div>
+              </div>
+            </div>
+        </div>
+        <!-- More Training Modal -->
+        <div class="modal fade" id="more-training" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content p-5">
+                    <div class="modal-header border-0">
+                    <h5 class="modal-title text-dark fw-semibold" id="exampleModalLabel">More Training:</h5>
+                    <button type="button" class="btn-close shadow-none" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p class="fs-5">What do we mean by this?</p>
+                        <p class="fs-5">
+                            We will be partnering with more companies to provide more training to participants in this track. However, this is subject to the partners. If we cannot get partners in any of the items listed below, we will not be doing the training.
+                        </p>
+                    </div>
+              </div>
+            </div>
+        </div>
     </main>
     <!-- Footer -->
     <footer>
